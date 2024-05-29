@@ -1,0 +1,24 @@
+git config --global user.name RaissaBorgess
+git config --global user.email raissasantos123.rs33@gmail.com
+
+Executar, no terminal, 1 por vez, em ordem:
+    dotnet new mvc -o LoloFlix
+    dotnet new sln --name LoloFlix
+    dotnet sln add LoloFlix\LoloFlix.csproj
+
+- Database First / Code First
+- Instalar os pacotes necessários
+
+1º forma: Acessar o site nuget.org
+    -dotnet add package 
+2º forma: Usar a extensao NuGet Gallery
+    -Shift + Ctrl + p
+    -Nuget (enter)
+    -Pesquisar e instalar os pacotes:
+    -EntifyFrameworkCore
+    -EntifyFrameworkCore.Design
+    -EntifyFrameworkCore.Tools
+    -Pomelo.EntityFrameworkCore.Mysql
+
+    Comit 
+    Criado o projeto, estrutura de pasta e adicionado os pacotes de manipulação de dados.
